@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <title>Random Cat & Dog</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Progressive Web Application">
+    <meta name="theme-color" content="#FFB20B">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-192x192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-11"></div>
+            <div class="results">
+                <div id="cat_result" class="result">
+                    <p>Cat</p>
+                </div>
+                <div id="dog_result" class="result">
+                    <p>Dog</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="cat_btn">Get Cat</button>
+                <button id="dog_btn">Get Dog</button><br>
+                <a href="/index.html"><button type="button" class="bck_btn">Kembali</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="/js/image.main.js"></script>
+    <script src="/service-worker.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,7 @@
 var CACHE_NAME = "static_cache";
-var STATIC_ASSETS = ["/", "/js/image.main.js", "/css/style.css", "/img/logo.png", "/js/main.js", "/js/jquery-3.2.1.min.js"];
+
+//Files to save in cache
+var STATIC_ASSETS = ["/"];
 
 async function preCache() {
     const cache = await caches.open(CACHE_NAME);
